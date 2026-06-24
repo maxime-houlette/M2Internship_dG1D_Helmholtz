@@ -1,0 +1,5 @@
+main.cpp
+*.d
+*.json
+*.o
+/build
