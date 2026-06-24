@@ -25,6 +25,7 @@ add_library(dg_core
 # Dossiers d'inclusion pour la bibliothèque
 target_include_directories(dg_core PUBLIC 
     include
+    include/dg
 )
 
 # Options de compilation strictes
