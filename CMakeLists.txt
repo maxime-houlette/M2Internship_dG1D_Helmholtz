@@ -19,7 +19,8 @@ find_package(Eigen3 REQUIRED)
 ###############################################################################
 add_library(dg_core
     src/dg/mesh.cpp
-    # src/dg/solver.cpp
+    src/dg/solver.cpp
+    src/dg/reference_element.cpp
 )
 
 # Dossiers d'inclusion pour la bibliothèque
