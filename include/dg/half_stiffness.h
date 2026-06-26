@@ -4,7 +4,7 @@
 #include "quadrature.h"
 #include "reference_element.h"
 
-inline void half_stiffness(const ReferenceElement &ref_el, double h, Eigen::MatrixXcd &hS_loc)
+inline void half_stiffness(const ReferenceElement &ref_el, Eigen::MatrixXcd &hS_loc)
 {
     size_t n_dofs = ref_el.degree + 1;
     hS_loc.setZero();

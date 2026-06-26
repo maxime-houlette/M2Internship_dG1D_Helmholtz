@@ -2,4 +2,6 @@ main.cpp
 *.d
 *.json
 *.o
+*.py
+*.csv
 /build
